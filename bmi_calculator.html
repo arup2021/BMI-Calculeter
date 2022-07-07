@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculate BMI</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+	</style>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="calculator-container">
+		<div class="title">
+			<h1>Body Mass Index</h1>
+		</div>
+		<div class="input-section">
+			<label for="weight">Weight</label> <br>
+			<input id="weight" type="text" placeholder="Kilogram"><br>
+			<label for="height">Height</label><br>
+			<input id="height_feet" type="text" placeholder="feet"><br>
+			<input id="height_inch" type="text" placeholder="inche"><br>
+			<button id="calculate">Calculate</button>
+		</div>
+		<div class="result-section">
+			<p id="result_bar">Your BMI score is : <span id="result"></span>. <br>And you are : <span id="bmi_status"></span></p>
+			<p id="no_result_bar">Oh, Dear! Please input your weight and height.</p>
+		</div>
+	</div>
+<script src="app.js"></script>
+</body>
+</html>

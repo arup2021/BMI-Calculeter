@@ -1,0 +1,48 @@
+		body{
+			font-family: 'Ubuntu', sans-serif;
+		}
+		.calculator-container {
+		    width: 100%;
+		    max-width: 300px;
+		    margin: 0 auto;
+		    text-align: center;
+		    background-color: #e7e7e7;
+		    padding: 15px 20px 40px 20px;
+		    border-radius: 20px;
+		}
+
+		.title h1{
+			color: white;
+	    text-transform: uppercase;
+	    background-color: green;
+	    padding: 20px;
+	    border-radius: 5px;
+	    font-size: 27px;
+		}
+
+		.input-section input {
+		    font-size: 18px;
+		    margin: 10px 0;
+		    border: 2px solid #000;
+		    border-radius: 10px;
+		    padding: 10px 10px;
+		}
+
+		.input-section label {
+	    font-size: 20px;
+	    font-weight: bold;
+		}
+
+		button#calculate {
+		    padding: 10px 20px;
+		    border-radius: 10px;
+		    font-size: 20px;
+		    width: 100%;
+		    max-width: 243px;
+		    background-color: #01c9f1;
+		    border-color: #01c9f1;
+		}
+
+		button{
+			cursor: pointer;
+		}
